@@ -1,0 +1,128 @@
+/***** BASE STYLES *****/
+body {
+    background-color: #5A7167;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+header {
+    background: white;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: inline;
+    color: #F16059;
+    text-transform: uppercase;
+}
+header img {
+    margin-right: 20px;
+}
+main {
+    width: 1000px;
+    margin: auto;
+}
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 550px;
+}
+.image {
+    float: left;
+    width: 500px;
+    height: 550px;
+}
+.recipe {
+    float: left;
+    width: 500px;
+    height: 550px;
+    padding: 20px;
+    background-color: white;
+    box-sizing: border-box;
+    overflow: auto;
+}
+#rolls .image {
+    background-image: url('../img/cinnamon-roll.jpg');
+    background-size: cover;
+}
+#hash .image {
+    background-image: url('../img/skillet.jpg');
+    background-size: cover;
+}
+#salad .image {
+    background-image: url('../img/caviar.jpg');
+    background-size: cover;
+}
+.recipe h2 {
+    color: #F16059;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-top: 0;
+}
+.time {
+    margin-bottom: 10px;
+    border: 1px solid #3B3B3B;
+    overflow: auto;
+}
+.prep, .cook, .total {
+    float: left;
+    padding: 5px 0 5px 6px;
+    width: 33.3333%;
+    box-sizing: border-box;
+}
+.time-details {
+    text-transform: uppercase;
+    display: inline;
+}
+.time .cook {
+    border-left: 1px solid #3B3B3B;
+    border-right: 1px solid #3B3B3B;
+}
+.time img {
+    width: 15px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.time strong {
+    font-family: 'Montserrat', sans-serif;
+}
+.columns {
+    overflow: auto;
+}
+.directions {
+    float: left;
+    width: 240px;
+}
+.ingredients {
+    float: left;
+    width: 205px;
+    margin-right: 10px;
+}
+.recipe h3 {
+    color: #F16059;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    border-top: 1px solid #3B3B3B;
+    border-bottom: 1px solid #3B3B3B;
+}
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    line-height: 22px;
+}
+ol {
+    padding-left: 20px;
+    line-height: 22px;
+}
